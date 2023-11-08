@@ -11,3 +11,7 @@
 
 - ⚡ Fun fact **can code for 24 hours straight, fueled by the power of a cup of coffee! ☕💻😄**
 
+- 😄 Pronouns: He/Him
+
+
+
