@@ -2,6 +2,7 @@
 <h1 align="center">Hi 👋, I'm Anurag</h1>
 <h3 align="center">I'm a passionate programmer with a relentless drive to learn and grow in the world of code.</h3>
 
+- 💻 Computer Science student
 
 - 🌱 Currently diving into **Rust programming**
   
