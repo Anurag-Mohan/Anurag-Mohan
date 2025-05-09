@@ -1,13 +1,11 @@
 # <div align="center">![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=30&pause=1000&color=6A5ACD&background=FFFFFF00&center=true&vCenter=true&random=false&width=600&height=70&lines=Hi+%F0%9F%91%8B%2C+I'm+Anurag;A+Passionate+Developer;Code+%E2%9D%A4%EF%B8%8F+Coffee+%E2%98%95+Life+%F0%9F%94%84)
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Anurag-Mohan/Anurag-Mohan/main/Picsart_23-11-08_19-47-56-996-01.jpeg" height="200" width="100%" style="border-radius:50%" alt="profile">
-</div>
+
 
 <div align="center">
   
   [![GitHub followers](https://img.shields.io/github/followers/Anurag-Mohan?logo=GitHub&style=for-the-badge)](https://github.com/Anurag-Mohan)
-  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YourProfileHere)
+  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/anuragmohanofficial)
   
 </div>
 
