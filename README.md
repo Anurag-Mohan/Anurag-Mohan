@@ -81,14 +81,7 @@
 
 <br/>
 
-## <div align="center">🚀 Currently Building</div>
 
-<div align="center">
-
-**[Laudex](https://laudex.in)** — interactive, cinematic 3D web experiences for save-the-dates and event invitations.<br/>
-Focused on fluid, premium motion design and a launch-ready product suite.
-
-</div>
 
 <br/>
 
