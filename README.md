@@ -106,13 +106,6 @@
 
 <br/>
 
-## <div align="center">🐍 Contribution Graph</div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Anurag-Mohan/Anurag-Mohan/output/github-contribution-grid-snake-dark.svg" />
-</div>
-
-<br/>
 
 ## <div align="center">🎧 Vibing To</div>
 
