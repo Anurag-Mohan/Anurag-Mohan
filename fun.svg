@@ -1,6 +1,6 @@
 <svg width="980" height="300" viewBox="0 0 980 300" xmlns="http://www.w3.org/2000/svg" role="img">
-<title>Tech stack marathon</title>
-<desc>An animated runner sprinting down a road as placards for programming languages and tools sway on their poles while scrolling past.</desc>
+<title>Lets Run</title>
+<desc>Grab it-Make it</desc>
 <defs>
 <linearGradient id="roadGradR" x1="0" y1="0" x2="0" y2="50" gradientUnits="userSpaceOnUse">
   <stop offset="0%" stop-color="#262d38"/>
@@ -59,8 +59,6 @@
 @keyframes bobR { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-4px); } }
 ]]>
 </style>
-
-
 
 <rect x="0" y="236" width="980" height="46" fill="url(#roadGradR)"/>
 <rect x="0" y="233" width="980" height="4" fill="url(#curbGradR)"/>
