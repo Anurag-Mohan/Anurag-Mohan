@@ -27,6 +27,11 @@
   
 
 <div align="center">
+  <img src="fun.svg" alt="Fun" width="980"/>
+</div>
+<br/>
+
+<div align="center">
   <img src="skills-card.svg" alt="Skills Cards" width="990"/>
 </div>
 <br/>
