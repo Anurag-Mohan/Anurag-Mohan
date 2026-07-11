@@ -1,0 +1,161 @@
+<svg width="980" height="300" viewBox="0 0 980 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Tech stack marathon</title>
+<desc>An animated runner sprinting down a road as placards for programming languages and tools scroll past.</desc>
+<defs>
+<linearGradient id="roadGradR" x1="0" y1="0" x2="0" y2="50" gradientUnits="userSpaceOnUse">
+  <stop offset="0%" stop-color="#262d38"/>
+  <stop offset="100%" stop-color="#12151b"/>
+</linearGradient>
+<linearGradient id="curbGradR" x1="0" y1="0" x2="0" y2="10" gradientUnits="userSpaceOnUse">
+  <stop offset="0%" stop-color="#3a4250"/>
+  <stop offset="100%" stop-color="#262d38"/>
+</linearGradient>
+<filter id="glowR" x="-100%" y="-100%" width="300%" height="300%">
+  <feGaussianBlur stdDeviation="2" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="glowRsoft" x="-100%" y="-100%" width="300%" height="300%">
+  <feGaussianBlur stdDeviation="4.5" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+
+<symbol id="ic-python" viewBox="0 0 40 40"><path d="M20 4c-6 0-10 2-10 8v4h10v2H12c-5 0-8 3-8 9s3 8 8 8h3v-5c0-4 3-6 7-6h6c4 0 7-2 7-6v-6c0-6-4-8-10-8z" fill="#4B8BBE"/><path d="M20 36c6 0 10-2 10-8v-4H20v-2h8c5 0 8-3 8-9s-3-8-8-8h-3v5c0 4-3 6-7 6h-6c-4 0-7 2-7 6v6c0 6 4 8 10 8z" fill="#FFD43B"/><circle cx="16" cy="10" r="1.6" fill="#fff"/><circle cx="24" cy="30" r="1.6" fill="#fff"/></symbol>
+<symbol id="ic-js" viewBox="0 0 40 40"><rect x="2" y="2" width="36" height="36" rx="6" fill="#F7DF1E"/><text x="20" y="27" font-family="Segoe UI,Verdana,sans-serif" font-weight="800" font-size="16" text-anchor="middle" fill="#1a1a1a">JS</text></symbol>
+<symbol id="ic-ts" viewBox="0 0 40 40"><rect x="2" y="2" width="36" height="36" rx="6" fill="#3178C6"/><text x="20" y="27" font-family="Segoe UI,Verdana,sans-serif" font-weight="800" font-size="16" text-anchor="middle" fill="#ffffff">TS</text></symbol>
+<symbol id="ic-rust" viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" fill="none" stroke="#DE9161" stroke-width="3"/><g fill="#DE9161"><rect x="18.5" y="3" width="3" height="5"/><rect x="18.5" y="32" width="3" height="5"/><rect x="3" y="18.5" width="5" height="3"/><rect x="32" y="18.5" width="5" height="3"/></g><text x="20" y="26" font-family="Georgia,serif" font-weight="700" font-size="15" text-anchor="middle" fill="#DE9161">R</text></symbol>
+<symbol id="ic-java" viewBox="0 0 40 40"><path d="M13 26c8 5 14 5 18 0" fill="none" stroke="#ED8B00" stroke-width="2"/><rect x="12" y="14" width="16" height="10" rx="2" fill="#ED8B00"/><path d="M28 15c4-1 5 4 1 5" fill="none" stroke="#ED8B00" stroke-width="2"/><path d="M16 12c2-2 0-3 2-5" fill="none" stroke="#ED8B00" stroke-width="1.6"/><path d="M21 12c2-2 0-3 2-5" fill="none" stroke="#ED8B00" stroke-width="1.6"/></symbol>
+<symbol id="ic-dart" viewBox="0 0 40 40"><polygon points="20,3 35,20 20,37 5,20" fill="#00B4AB"/><polygon points="20,3 35,20 20,20" fill="#40D9CB"/><polygon points="20,20 35,20 20,37" fill="#00838A"/></symbol>
+<symbol id="ic-flutter" viewBox="0 0 40 40"><polygon points="8,20 24,4 34,4 16,22" fill="#54C5F8"/><polygon points="16,22 34,4 34,14 22,26" fill="#29B6F6"/><polygon points="16,22 22,28 34,16 34,26 24,36 8,20" fill="#0288D1"/></symbol>
+<symbol id="ic-react" viewBox="0 0 40 40"><circle cx="20" cy="20" r="3" fill="#61DAFB"/><g fill="none" stroke="#61DAFB" stroke-width="2"><ellipse cx="20" cy="20" rx="16" ry="6.5"/><ellipse cx="20" cy="20" rx="16" ry="6.5" transform="rotate(60 20 20)"/><ellipse cx="20" cy="20" rx="16" ry="6.5" transform="rotate(120 20 20)"/></g></symbol>
+<symbol id="ic-node" viewBox="0 0 40 40"><polygon points="20,3 35,11.5 35,28.5 20,37 5,28.5 5,11.5" fill="none" stroke="#83CD29" stroke-width="2.4"/><text x="20" y="25" font-family="Segoe UI" font-weight="800" font-size="12" text-anchor="middle" fill="#83CD29">JS</text></symbol>
+<symbol id="ic-git" viewBox="0 0 40 40"><circle cx="12" cy="10" r="3.4" fill="#F05033"/><circle cx="12" cy="30" r="3.4" fill="#F05033"/><circle cx="28" cy="20" r="3.4" fill="#F05033"/><path d="M12 13v14M12 20c0-6 5-8 12-8" fill="none" stroke="#F05033" stroke-width="2.2"/></symbol>
+<symbol id="ic-figma" viewBox="0 0 40 40"><rect x="8" y="4" width="12" height="12" rx="6" fill="#F24E1E"/><rect x="8" y="16" width="12" height="12" fill="#A259FF"/><path d="M8 28a6 6 0 1 0 12 0v-6H8z" fill="#0ACF83"/><circle cx="26" cy="10" r="6" fill="#1ABCFE"/><circle cx="26" cy="22" r="6" fill="#FF7262"/></symbol>
+<symbol id="ic-vscode" viewBox="0 0 40 40"><rect x="2" y="2" width="36" height="36" rx="8" fill="#0e1116"/><path d="M27 6 12 19 6 15v10l6-4 15 13 6-3V9z" fill="none" stroke="#007ACC" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="ic-html" viewBox="0 0 40 40"><polygon points="6,4 34,4 31,32 20,36 9,32" fill="#E44D26"/><polygon points="20,7 20,33 28.5,30 30.5,10" fill="#F16529"/><text x="20" y="24" font-family="Segoe UI" font-weight="800" font-size="9" text-anchor="middle" fill="#fff">5</text></symbol>
+<symbol id="ic-css" viewBox="0 0 40 40"><polygon points="6,4 34,4 31,32 20,36 9,32" fill="#264DE4"/><polygon points="20,7 20,33 28.5,30 30.5,10" fill="#2965F1"/><text x="20" y="24" font-family="Segoe UI" font-weight="800" font-size="9" text-anchor="middle" fill="#fff">3</text></symbol>
+</defs>
+<style>
+<![CDATA[
+.bigTitleR { font-family:'Segoe UI',Verdana,sans-serif; font-weight:800; font-size:26px; fill:#e6edf3; letter-spacing:1.4px; }
+.bigSubR { font-family:'Segoe UI',Verdana,sans-serif; font-size:11px; fill:#8b949e; letter-spacing:2.4px; }
+.underlineR { stroke-dasharray:260; stroke-dashoffset:260; animation:sweepR 2s ease-out .2s forwards; }
+@keyframes sweepR { to { stroke-dashoffset:0; } }
+.scrollBanners { animation: scrollBannerAnim 21.5s linear infinite; }
+@keyframes scrollBannerAnim { from { transform:translateX(0); } to { transform:translateX(-2408px); } }
+.flagFlutter { animation-name: flutterR; animation-iteration-count: infinite; animation-timing-function: ease-in-out; transform-origin: 0px -34px; }
+@keyframes flutterR { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+.poleGlow { animation: poleGlowR 2.4s ease-in-out infinite; }
+@keyframes poleGlowR { 0%,100% { opacity:.5; } 50% { opacity:1; } }
+.dashScroll { animation: dashScrollAnim 0.5s linear infinite; }
+@keyframes dashScrollAnim { from { transform:translateX(0); } to { transform:translateX(-56px); } }
+.dustP { animation: dustFadeR 0.9s ease-out infinite; }
+@keyframes dustFadeR { 0% { transform:translate(0,0); opacity:.5; } 100% { transform:translate(-30px,8px); opacity:0; } }
+.speedLine { animation: speedLineR 0.9s ease-in-out infinite; }
+@keyframes speedLineR { 0%,100% { opacity:0; } 40% { opacity:.55; } 60% { opacity:.55; } }
+.runnerGlow { filter:url(#glowR); }
+.roadTopLine { animation: roadLineGlowR 2.4s ease-in-out infinite; }
+@keyframes roadLineGlowR { 0%,100% { opacity:.4; } 50% { opacity:.85; } }
+.tagText { font-family:'Segoe UI',Verdana,sans-serif; font-weight:700; font-size:11px; text-anchor:middle; }
+.bob { animation: bobR 0.5s ease-in-out infinite; }
+@keyframes bobR { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-4px); } }
+]]>
+</style>
+
+<text x="490" y="34" text-anchor="middle" class="bigTitleR">Tech stack marathon</text>
+<line x1="330" y1="46" x2="650" y2="46" stroke="#262c37" stroke-width="2"/>
+<line class="underlineR" x1="330" y1="46" x2="650" y2="46" stroke="#58a6ff" stroke-width="2"/>
+<text x="490" y="63" text-anchor="middle" class="bigSubR">SPRINTING PAST EVERY LANGUAGE AND FRAMEWORK ALONG THE WAY</text>
+
+<rect x="0" y="236" width="980" height="46" fill="url(#roadGradR)"/>
+<rect x="0" y="233" width="980" height="4" fill="url(#curbGradR)"/>
+<line class="roadTopLine" x1="0" y1="236" x2="980" y2="236" stroke="#58a6ff" stroke-width="1.2"/>
+<line x1="0" y1="281.5" x2="980" y2="281.5" stroke="#3a4250" stroke-width="1"/>
+<g class="dashScroll">
+<g fill="#4a5568">
+<rect x="-56" y="257" width="34" height="4" rx="2"/><rect x="0" y="257" width="34" height="4" rx="2"/><rect x="56" y="257" width="34" height="4" rx="2"/><rect x="112" y="257" width="34" height="4" rx="2"/><rect x="168" y="257" width="34" height="4" rx="2"/><rect x="224" y="257" width="34" height="4" rx="2"/><rect x="280" y="257" width="34" height="4" rx="2"/><rect x="336" y="257" width="34" height="4" rx="2"/><rect x="392" y="257" width="34" height="4" rx="2"/><rect x="448" y="257" width="34" height="4" rx="2"/><rect x="504" y="257" width="34" height="4" rx="2"/><rect x="560" y="257" width="34" height="4" rx="2"/><rect x="616" y="257" width="34" height="4" rx="2"/><rect x="672" y="257" width="34" height="4" rx="2"/><rect x="728" y="257" width="34" height="4" rx="2"/><rect x="784" y="257" width="34" height="4" rx="2"/><rect x="840" y="257" width="34" height="4" rx="2"/><rect x="896" y="257" width="34" height="4" rx="2"/><rect x="952" y="257" width="34" height="4" rx="2"/><rect x="1008" y="257" width="34" height="4" rx="2"/>
+</g>
+</g>
+
+<g class="scrollBanners">
+<g transform="translate(70,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#3776AB" stroke-width="2" style="animation-delay:1.09s"/><g class="flagFlutter" style="animation-duration:2.3s; animation-delay:1.09s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#3776AB" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#3776AB" stroke-width="1.2"/><use href="#ic-python" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#3776AB">Python</text></g></g>
+<g transform="translate(242,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#F7DF1E" stroke-width="2" style="animation-delay:1.18s"/><g class="flagFlutter" style="animation-duration:2.25s; animation-delay:1.18s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#F7DF1E" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#F7DF1E" stroke-width="1.2"/><use href="#ic-js" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#F7DF1E">JavaScript</text></g></g>
+<g transform="translate(414,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#3178C6" stroke-width="2" style="animation-delay:0.09s"/><g class="flagFlutter" style="animation-duration:2.42s; animation-delay:0.09s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#3178C6" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#3178C6" stroke-width="1.2"/><use href="#ic-ts" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#3178C6">TypeScript</text></g></g>
+<g transform="translate(586,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#DE9161" stroke-width="2" style="animation-delay:0.93s"/><g class="flagFlutter" style="animation-duration:2.18s; animation-delay:0.93s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#DE9161" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#DE9161" stroke-width="1.2"/><use href="#ic-rust" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#DE9161">Rust</text></g></g>
+<g transform="translate(758,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#ED8B00" stroke-width="2" style="animation-delay:0.1s"/><g class="flagFlutter" style="animation-duration:2.23s; animation-delay:0.1s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#ED8B00" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#ED8B00" stroke-width="1.2"/><use href="#ic-java" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#ED8B00">Java</text></g></g>
+<g transform="translate(930,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#00B4AB" stroke-width="2" style="animation-delay:1.16s"/><g class="flagFlutter" style="animation-duration:2.55s; animation-delay:1.16s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#00B4AB" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#00B4AB" stroke-width="1.2"/><use href="#ic-dart" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#00B4AB">Dart</text></g></g>
+<g transform="translate(1102,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#54C5F8" stroke-width="2" style="animation-delay:0.14s"/><g class="flagFlutter" style="animation-duration:2.16s; animation-delay:0.14s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#54C5F8" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#54C5F8" stroke-width="1.2"/><use href="#ic-flutter" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#54C5F8">Flutter</text></g></g>
+<g transform="translate(1274,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#61DAFB" stroke-width="2" style="animation-delay:0.12s"/><g class="flagFlutter" style="animation-duration:2.02s; animation-delay:0.12s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#61DAFB" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#61DAFB" stroke-width="1.2"/><use href="#ic-react" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#61DAFB">React</text></g></g>
+<g transform="translate(1446,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#83CD29" stroke-width="2" style="animation-delay:0.96s"/><g class="flagFlutter" style="animation-duration:2.11s; animation-delay:0.96s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#83CD29" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#83CD29" stroke-width="1.2"/><use href="#ic-node" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#83CD29">Node.js</text></g></g>
+<g transform="translate(1618,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#F05033" stroke-width="2" style="animation-delay:0.67s"/><g class="flagFlutter" style="animation-duration:2.33s; animation-delay:0.67s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#F05033" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#F05033" stroke-width="1.2"/><use href="#ic-git" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#F05033">Git</text></g></g>
+<g transform="translate(1790,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#A259FF" stroke-width="2" style="animation-delay:0.23s"/><g class="flagFlutter" style="animation-duration:2.56s; animation-delay:0.23s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#A259FF" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#A259FF" stroke-width="1.2"/><use href="#ic-figma" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#A259FF">Figma</text></g></g>
+<g transform="translate(1962,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#007ACC" stroke-width="2" style="animation-delay:0.16s"/><g class="flagFlutter" style="animation-duration:2.48s; animation-delay:0.16s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#007ACC" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#007ACC" stroke-width="1.2"/><use href="#ic-vscode" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#007ACC">VS Code</text></g></g>
+<g transform="translate(2134,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#E44D26" stroke-width="2" style="animation-delay:0.14s"/><g class="flagFlutter" style="animation-duration:2.31s; animation-delay:0.14s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#E44D26" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#E44D26" stroke-width="1.2"/><use href="#ic-html" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#E44D26">HTML</text></g></g>
+<g transform="translate(2306,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#5C9EE7" stroke-width="2" style="animation-delay:0.26s"/><g class="flagFlutter" style="animation-duration:2.19s; animation-delay:0.26s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#5C9EE7" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#5C9EE7" stroke-width="1.2"/><use href="#ic-css" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#5C9EE7">CSS</text></g></g>
+<g transform="translate(2478,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#3776AB" stroke-width="2" style="animation-delay:1.17s"/><g class="flagFlutter" style="animation-duration:2.6s; animation-delay:1.17s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#3776AB" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#3776AB" stroke-width="1.2"/><use href="#ic-python" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#3776AB">Python</text></g></g>
+<g transform="translate(2650,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#F7DF1E" stroke-width="2" style="animation-delay:0.36s"/><g class="flagFlutter" style="animation-duration:2.7s; animation-delay:0.36s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#F7DF1E" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#F7DF1E" stroke-width="1.2"/><use href="#ic-js" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#F7DF1E">JavaScript</text></g></g>
+<g transform="translate(2822,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#3178C6" stroke-width="2" style="animation-delay:0.25s"/><g class="flagFlutter" style="animation-duration:2.31s; animation-delay:0.25s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#3178C6" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#3178C6" stroke-width="1.2"/><use href="#ic-ts" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#3178C6">TypeScript</text></g></g>
+<g transform="translate(2994,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#DE9161" stroke-width="2" style="animation-delay:1.03s"/><g class="flagFlutter" style="animation-duration:2.5s; animation-delay:1.03s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#DE9161" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#DE9161" stroke-width="1.2"/><use href="#ic-rust" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#DE9161">Rust</text></g></g>
+<g transform="translate(3166,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#ED8B00" stroke-width="2" style="animation-delay:0.12s"/><g class="flagFlutter" style="animation-duration:2.78s; animation-delay:0.12s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#ED8B00" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#ED8B00" stroke-width="1.2"/><use href="#ic-java" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#ED8B00">Java</text></g></g>
+<g transform="translate(3338,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#00B4AB" stroke-width="2" style="animation-delay:0.26s"/><g class="flagFlutter" style="animation-duration:2.2s; animation-delay:0.26s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#00B4AB" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#00B4AB" stroke-width="1.2"/><use href="#ic-dart" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#00B4AB">Dart</text></g></g>
+<g transform="translate(3510,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#54C5F8" stroke-width="2" style="animation-delay:0.93s"/><g class="flagFlutter" style="animation-duration:2.25s; animation-delay:0.93s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#54C5F8" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#54C5F8" stroke-width="1.2"/><use href="#ic-flutter" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#54C5F8">Flutter</text></g></g>
+<g transform="translate(3682,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#61DAFB" stroke-width="2" style="animation-delay:0.36s"/><g class="flagFlutter" style="animation-duration:2.05s; animation-delay:0.36s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#61DAFB" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#61DAFB" stroke-width="1.2"/><use href="#ic-react" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#61DAFB">React</text></g></g>
+<g transform="translate(3854,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#83CD29" stroke-width="2" style="animation-delay:0.11s"/><g class="flagFlutter" style="animation-duration:2.46s; animation-delay:0.11s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#83CD29" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#83CD29" stroke-width="1.2"/><use href="#ic-node" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#83CD29">Node.js</text></g></g>
+<g transform="translate(4026,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#F05033" stroke-width="2" style="animation-delay:0.29s"/><g class="flagFlutter" style="animation-duration:2.47s; animation-delay:0.29s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#F05033" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#F05033" stroke-width="1.2"/><use href="#ic-git" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#F05033">Git</text></g></g>
+<g transform="translate(4198,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#A259FF" stroke-width="2" style="animation-delay:0.45s"/><g class="flagFlutter" style="animation-duration:2.35s; animation-delay:0.45s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#A259FF" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#A259FF" stroke-width="1.2"/><use href="#ic-figma" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#A259FF">Figma</text></g></g>
+<g transform="translate(4370,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#007ACC" stroke-width="2" style="animation-delay:1.15s"/><g class="flagFlutter" style="animation-duration:2.38s; animation-delay:1.15s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#007ACC" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#007ACC" stroke-width="1.2"/><use href="#ic-vscode" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#007ACC">VS Code</text></g></g>
+<g transform="translate(4542,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#E44D26" stroke-width="2" style="animation-delay:0.69s"/><g class="flagFlutter" style="animation-duration:2.68s; animation-delay:0.69s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#E44D26" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#E44D26" stroke-width="1.2"/><use href="#ic-html" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#E44D26">HTML</text></g></g>
+<g transform="translate(4714,0)"><line class="poleGlow" x1="0" y1="236" x2="0" y2="140" stroke="#5C9EE7" stroke-width="2" style="animation-delay:0.22s"/><g class="flagFlutter" style="animation-duration:2.11s; animation-delay:0.22s;" transform="translate(0,146)"><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#5C9EE7" opacity="0.15" filter="url(#glowRsoft)"/><rect x="-33" y="-32" width="66" height="52" rx="10" fill="#12151b" stroke="#5C9EE7" stroke-width="1.2"/><use href="#ic-css" x="-16" y="-28" width="32" height="32"/><text x="0" y="15" class="tagText" fill="#5C9EE7">CSS</text></g></g>
+</g>
+
+<ellipse cx="170" cy="239" rx="17" ry="4" fill="#000000" opacity="0.4" filter="url(#glowRsoft)"/>
+<circle class="dustP" cx="150" cy="234" r="2.4" fill="#8b949e" style="animation-delay:0.0s"/>
+<circle class="dustP" cx="150" cy="234" r="2.4" fill="#8b949e" style="animation-delay:0.25s"/>
+<circle class="dustP" cx="150" cy="234" r="2.4" fill="#8b949e" style="animation-delay:0.5s"/>
+<line class="speedLine" x1="96" y1="196" x2="134" y2="196" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" style="animation-delay:0.0s"/>
+<line class="speedLine" x1="96" y1="210" x2="134" y2="210" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" style="animation-delay:0.15s"/>
+<line class="speedLine" x1="96" y1="224" x2="134" y2="224" stroke="#58a6ff" stroke-width="2" stroke-linecap="round" style="animation-delay:0.3s"/>
+
+<g transform="translate(170,204)">
+<g class="bob">
+<g class="runnerGlow" stroke="#f0f6fc" stroke-linecap="round">
+<g stroke-width="5.5">
+<g transform="translate(0,0)">
+<animateTransform attributeName="transform" type="rotate" values="40;-32;40" keyTimes="0;0.5;1" dur="0.5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+<line x1="0" y1="0" x2="0" y2="17"/>
+<g transform="translate(0,17)">
+<animateTransform attributeName="transform" type="rotate" values="8;62;8" keyTimes="0;0.5;1" dur="0.5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+<line x1="0" y1="0" x2="0" y2="15" stroke-width="4.6"/>
+<path d="M -3,15 L 8,15 L 6,19 L -3,19 Z" fill="#58a6ff" stroke="none"/>
+</g>
+</g>
+<g transform="translate(0,0)">
+<animateTransform attributeName="transform" type="rotate" values="-32;40;-32" keyTimes="0;0.5;1" dur="0.5s" begin="-0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+<line x1="0" y1="0" x2="0" y2="17"/>
+<g transform="translate(0,17)">
+<animateTransform attributeName="transform" type="rotate" values="8;62;8" keyTimes="0;0.5;1" dur="0.5s" begin="-0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"/>
+<line x1="0" y1="0" x2="0" y2="15" stroke-width="4.6"/>
+<path d="M -3,15 L 8,15 L 6,19 L -3,19 Z" fill="#58a6ff" stroke="none"/>
+</g>
+</g>
+</g>
+</g>
+<path d="M -6,-2 Q 0,4 6,-2 L 6,-28 Q 0,-33 -6,-28 Z" fill="#e6edf3"/>
+<g stroke-width="4.2" stroke="#e6edf3" stroke-linecap="round">
+<g transform="translate(-3,-26)">
+<animateTransform attributeName="transform" type="rotate" values="-30;38;-30" keyTimes="0;0.5;1" dur="0.5s" begin="-0.25s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" additive="sum"/>
+<line x1="-3,-26" x2="-3,-26" y1="0" y2="0"/>
+<line x1="0" y1="0" x2="0" y2="15"/>
+<circle cx="0" cy="15" r="2.6" fill="#c9d1d9" stroke="none"/>
+</g>
+<g transform="translate(3,-26)">
+<animateTransform attributeName="transform" type="rotate" values="38;-30;38" keyTimes="0;0.5;1" dur="0.5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1" additive="sum"/>
+<line x1="0" y1="0" x2="0" y2="15"/>
+<circle cx="0" cy="15" r="2.6" fill="#c9d1d9" stroke="none"/>
+</g>
+</g>
+<circle cx="0" cy="-40" r="10" fill="#f0f6fc" stroke="none"/>
+<path d="M -8,-45 Q 0,-51 8,-45 Q 5,-48 0,-48 Q -5,-48 -8,-45 Z" fill="#30363d" stroke="none"/>
+<circle cx="3" cy="-40" r="1.3" fill="#0d1117" stroke="none"/>
+</g>
+</g>
+</svg>
