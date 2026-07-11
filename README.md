@@ -21,18 +21,9 @@
 </div>
 
 <br/>
-
-## <div align="center">🏆 My Coding Journey</div>
-
-```text
-🌅 Morning    😊 Happy        ███████░░░░░░░░░░░░   30.65%
-🌆 Daytime    🙂 Focused       ██████░░░░░░░░░░░░   25.16%
-🌃 Evening    🤩 Excited         █████░░░░░░░░░░░░   21.94%
-🌙 Night      💻 In the Zone      █████░░░░░░░░░░░░   22.26%
-```
-
-<br/>
-
+  <div align="center">
+    <img src="journey.svg" alt="My Coding Journey" width="900"/>
+  </div>
 ## <div align="center">📊 GitHub Stats</div>
 
 <div align="center">
