@@ -1,142 +1,605 @@
-<svg width="100%" height="40" viewBox="0 0 700 30" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="94" viewBox="0 0 556 94" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="1.6" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <linearGradient id="sheen" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#39d353" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#7ee08a" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+  </linearGradient>
+</defs>
 <style>
-.cell { rx: 2; ry: 2; width: 10px; height: 10px; animation: flicker infinite alternate; }
-.d1 { animation-delay: 3.83s; animation-duration: 4.17s; }
-.d2 { animation-delay: 0.36s; animation-duration: 2.60s; }
-.d3 { animation-delay: 2.01s; animation-duration: 4.57s; }
-.d4 { animation-delay: 3.05s; animation-duration: 3.67s; }
-.d5 { animation-delay: 2.91s; animation-duration: 4.24s; }
-.d6 { animation-delay: 2.07s; animation-duration: 2.76s; }
-.d7 { animation-delay: 3.31s; animation-duration: 2.67s; }
-.d8 { animation-delay: 2.19s; animation-duration: 3.98s; }
-.d9 { animation-delay: 2.30s; animation-duration: 3.41s; }
-.d10 { animation-delay: 3.73s; animation-duration: 3.05s; }
-.d11 { animation-delay: 1.29s; animation-duration: 4.67s; }
-.d12 { animation-delay: 1.26s; animation-duration: 3.80s; }
-.d13 { animation-delay: 0.76s; animation-duration: 4.64s; }
-.d14 { animation-delay: 1.62s; animation-duration: 4.55s; }
-.d15 { animation-delay: 2.59s; animation-duration: 3.87s; }
-.d16 { animation-delay: 2.30s; animation-duration: 4.86s; }
-.d17 { animation-delay: 2.48s; animation-duration: 2.53s; }
-.d18 { animation-delay: 0.37s; animation-duration: 3.45s; }
-.d19 { animation-delay: 0.44s; animation-duration: 3.92s; }
-.d20 { animation-delay: 1.19s; animation-duration: 2.72s; }
-
+.cell { rx: 2.5; ry: 2.5; width: 10px; height: 10px; filter: url(#glow); animation: flicker infinite alternate ease-in-out; }
 @keyframes flicker {
-  0%, 15% { fill: #161b22; }
-  35% { fill: #0e4429; }
-  50% { fill: #006d32; }
-  75% { fill: #26a641; }
-  90%, 100% { fill: #39d353; }
+  0%, 12% { fill: #161b22; }
+  30% { fill: #0e4429; }
+  48% { fill: #006d32; }
+  66% { fill: #26a641; }
+  84% { fill: #39d353; }
+  100% { fill: #7ee08a; }
 }
 @media (prefers-color-scheme: light) {
   @keyframes flicker {
-    0%, 15% { fill: #ebedf0; }
-    35% { fill: #9be9a8; }
-    50% { fill: #40c463; }
-    75% { fill: #30a14e; }
-    90%, 100% { fill: #216e39; }
+    0%, 12% { fill: #ebedf0; }
+    30% { fill: #c6e6cb; }
+    48% { fill: #9be9a8; }
+    66% { fill: #40c463; }
+    84% { fill: #30a14e; }
+    100% { fill: #216e39; }
   }
 }
-</style>
-<rect x="0" y="0" class="cell d18" />
-<rect x="14" y="0" class="cell d17" />
-<rect x="28" y="0" class="cell d8" />
-<rect x="42" y="0" class="cell d7" />
-<rect x="56" y="0" class="cell d15" />
-<rect x="70" y="0" class="cell d1" />
-<rect x="84" y="0" class="cell d3" />
-<rect x="98" y="0" class="cell d3" />
-<rect x="112" y="0" class="cell d15" />
-<rect x="126" y="0" class="cell d19" />
-<rect x="140" y="0" class="cell d8" />
-<rect x="154" y="0" class="cell d3" />
-<rect x="168" y="0" class="cell d4" />
-<rect x="182" y="0" class="cell d12" />
-<rect x="196" y="0" class="cell d4" />
-<rect x="210" y="0" class="cell d14" />
-<rect x="224" y="0" class="cell d11" />
-<rect x="238" y="0" class="cell d15" />
-<rect x="252" y="0" class="cell d9" />
-<rect x="266" y="0" class="cell d12" />
-<rect x="280" y="0" class="cell d9" />
-<rect x="294" y="0" class="cell d6" />
-<rect x="308" y="0" class="cell d7" />
-<rect x="322" y="0" class="cell d17" />
-<rect x="336" y="0" class="cell d1" />
-<rect x="350" y="0" class="cell d1" />
-<rect x="364" y="0" class="cell d3" />
-<rect x="378" y="0" class="cell d18" />
-<rect x="392" y="0" class="cell d15" />
-<rect x="406" y="0" class="cell d15" />
-<rect x="420" y="0" class="cell d6" />
-<rect x="434" y="0" class="cell d10" />
-<rect x="448" y="0" class="cell d9" />
-<rect x="462" y="0" class="cell d5" />
-<rect x="476" y="0" class="cell d9" />
-<rect x="490" y="0" class="cell d8" />
-<rect x="504" y="0" class="cell d8" />
-<rect x="518" y="0" class="cell d3" />
-<rect x="532" y="0" class="cell d3" />
-<rect x="546" y="0" class="cell d20" />
-<rect x="560" y="0" class="cell d14" />
-<rect x="574" y="0" class="cell d18" />
-<rect x="588" y="0" class="cell d1" />
-<rect x="602" y="0" class="cell d18" />
-<rect x="616" y="0" class="cell d3" />
-<rect x="630" y="0" class="cell d14" />
-<rect x="644" y="0" class="cell d20" />
-<rect x="658" y="0" class="cell d11" />
-<rect x="672" y="0" class="cell d2" />
-<rect x="686" y="0" class="cell d6" />
-<rect x="0" y="14" class="cell d13" />
-<rect x="14" y="14" class="cell d19" />
-<rect x="28" y="14" class="cell d5" />
-<rect x="42" y="14" class="cell d12" />
-<rect x="56" y="14" class="cell d2" />
-<rect x="70" y="14" class="cell d2" />
-<rect x="84" y="14" class="cell d1" />
-<rect x="98" y="14" class="cell d13" />
-<rect x="112" y="14" class="cell d11" />
-<rect x="126" y="14" class="cell d15" />
-<rect x="140" y="14" class="cell d12" />
-<rect x="154" y="14" class="cell d7" />
-<rect x="168" y="14" class="cell d8" />
-<rect x="182" y="14" class="cell d2" />
-<rect x="196" y="14" class="cell d13" />
-<rect x="210" y="14" class="cell d6" />
-<rect x="224" y="14" class="cell d12" />
-<rect x="238" y="14" class="cell d7" />
-<rect x="252" y="14" class="cell d19" />
-<rect x="266" y="14" class="cell d20" />
-<rect x="280" y="14" class="cell d18" />
-<rect x="294" y="14" class="cell d17" />
-<rect x="308" y="14" class="cell d13" />
-<rect x="322" y="14" class="cell d13" />
-<rect x="336" y="14" class="cell d14" />
-<rect x="350" y="14" class="cell d6" />
-<rect x="364" y="14" class="cell d7" />
-<rect x="378" y="14" class="cell d9" />
-<rect x="392" y="14" class="cell d6" />
-<rect x="406" y="14" class="cell d15" />
-<rect x="420" y="14" class="cell d18" />
-<rect x="434" y="14" class="cell d4" />
-<rect x="448" y="14" class="cell d4" />
-<rect x="462" y="14" class="cell d4" />
-<rect x="476" y="14" class="cell d11" />
-<rect x="490" y="14" class="cell d12" />
-<rect x="504" y="14" class="cell d19" />
-<rect x="518" y="14" class="cell d12" />
-<rect x="532" y="14" class="cell d7" />
-<rect x="546" y="14" class="cell d12" />
-<rect x="560" y="14" class="cell d4" />
-<rect x="574" y="14" class="cell d11" />
-<rect x="588" y="14" class="cell d17" />
-<rect x="602" y="14" class="cell d14" />
-<rect x="616" y="14" class="cell d2" />
-<rect x="630" y="14" class="cell d16" />
-<rect x="644" y="14" class="cell d18" />
-<rect x="658" y="14" class="cell d12" />
-<rect x="672" y="14" class="cell d13" />
-<rect x="686" y="14" class="cell d20" />
+@keyframes sweep {
+  0% { transform: translateX(-15%); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateX(115%); opacity: 0; }
+}
+.sheen-bar { animation: sweep 6s linear infinite; }
+
+.d1 { animation-delay: 0.11s; animation-duration: 2.66s; }
+.d2 { animation-delay: 0s; animation-duration: 3.09s; }
+.d3 { animation-delay: 0.32s; animation-duration: 4.09s; }
+.d4 { animation-delay: 0.51s; animation-duration: 2.79s; }
+.d5 { animation-delay: 0.19s; animation-duration: 2.67s; }
+.d6 { animation-delay: 0.09s; animation-duration: 3.71s; }
+.d7 { animation-delay: 0.0s; animation-duration: 3.04s; }
+.d8 { animation-delay: 0.57s; animation-duration: 3.8s; }
+.d9 { animation-delay: 0.29s; animation-duration: 3.9s; }
+.d10 { animation-delay: 0.82s; animation-duration: 2.61s; }
+.d11 { animation-delay: 0.88s; animation-duration: 4.14s; }
+.d12 { animation-delay: 0.57s; animation-duration: 2.94s; }
+.d13 { animation-delay: 1.13s; animation-duration: 3.34s; }
+.d14 { animation-delay: 0.5s; animation-duration: 2.81s; }
+.d15 { animation-delay: 1.17s; animation-duration: 3.93s; }
+.d16 { animation-delay: 1.2s; animation-duration: 4.21s; }
+.d17 { animation-delay: 1.05s; animation-duration: 4.74s; }
+.d18 { animation-delay: 0.99s; animation-duration: 3.81s; }
+.d19 { animation-delay: 1.41s; animation-duration: 3.96s; }
+.d20 { animation-delay: 1.5s; animation-duration: 3.87s; }
+.d21 { animation-delay: 1.44s; animation-duration: 2.7s; }
+.d22 { animation-delay: 1.12s; animation-duration: 3.24s; }
+.d23 { animation-delay: 1.07s; animation-duration: 3.11s; }
+.d24 { animation-delay: 1.15s; animation-duration: 3.21s; }
+.d25 { animation-delay: 1.64s; animation-duration: 3.4s; }
+.d26 { animation-delay: 1.49s; animation-duration: 3.06s; }
+.d27 { animation-delay: 1.47s; animation-duration: 4.66s; }
+.d28 { animation-delay: 1.84s; animation-duration: 3.94s; }
+.d29 { animation-delay: 1.52s; animation-duration: 4.2s; }
+.d30 { animation-delay: 1.58s; animation-duration: 3.43s; }
+.d31 { animation-delay: 2.31s; animation-duration: 4.01s; }
+.d32 { animation-delay: 2.02s; animation-duration: 4.11s; }
+.d33 { animation-delay: 2.32s; animation-duration: 4.31s; }
+.d34 { animation-delay: 1.89s; animation-duration: 2.67s; }
+.d35 { animation-delay: 2.02s; animation-duration: 3.19s; }
+.d36 { animation-delay: 2.0s; animation-duration: 4.67s; }
+.d37 { animation-delay: 2.6s; animation-duration: 3.29s; }
+.d38 { animation-delay: 2.49s; animation-duration: 3.47s; }
+.d39 { animation-delay: 2.76s; animation-duration: 3.61s; }
+.d40 { animation-delay: 2.3s; animation-duration: 3.14s; }
+.d41 { animation-delay: 0.11s; animation-duration: 3.18s; }
+.d42 { animation-delay: 0.2s; animation-duration: 4.58s; }
+.d43 { animation-delay: 0.11s; animation-duration: 3.08s; }
+.d44 { animation-delay: 0.65s; animation-duration: 3.72s; }
+.d45 { animation-delay: 0s; animation-duration: 2.7s; }
+.d46 { animation-delay: 0.07s; animation-duration: 3.98s; }
+.d47 { animation-delay: 0.68s; animation-duration: 3.53s; }
+.d48 { animation-delay: 0.16s; animation-duration: 3.44s; }
+.d49 { animation-delay: 0.97s; animation-duration: 3.76s; }
+.d50 { animation-delay: 1.02s; animation-duration: 4.49s; }
+.d51 { animation-delay: 0.31s; animation-duration: 4.19s; }
+.d52 { animation-delay: 0.91s; animation-duration: 3.78s; }
+.d53 { animation-delay: 0.64s; animation-duration: 4.01s; }
+.d54 { animation-delay: 0.58s; animation-duration: 3.56s; }
+.d55 { animation-delay: 0.92s; animation-duration: 4.7s; }
+.d56 { animation-delay: 1.32s; animation-duration: 3.18s; }
+.d57 { animation-delay: 1.09s; animation-duration: 2.99s; }
+.d58 { animation-delay: 1.48s; animation-duration: 4.52s; }
+.d59 { animation-delay: 1.05s; animation-duration: 4.01s; }
+.d60 { animation-delay: 1.36s; animation-duration: 2.94s; }
+.d61 { animation-delay: 1.55s; animation-duration: 3.79s; }
+.d62 { animation-delay: 1.63s; animation-duration: 3.77s; }
+.d63 { animation-delay: 1.07s; animation-duration: 3.31s; }
+.d64 { animation-delay: 1.15s; animation-duration: 4.64s; }
+.d65 { animation-delay: 1.9s; animation-duration: 4.43s; }
+.d66 { animation-delay: 1.51s; animation-duration: 2.73s; }
+.d67 { animation-delay: 2.03s; animation-duration: 4.68s; }
+.d68 { animation-delay: 1.46s; animation-duration: 3.67s; }
+.d69 { animation-delay: 1.51s; animation-duration: 4.27s; }
+.d70 { animation-delay: 2.13s; animation-duration: 2.88s; }
+.d71 { animation-delay: 1.96s; animation-duration: 3.81s; }
+.d72 { animation-delay: 1.85s; animation-duration: 4.52s; }
+.d73 { animation-delay: 2.04s; animation-duration: 3.07s; }
+.d74 { animation-delay: 2.2s; animation-duration: 4.21s; }
+.d75 { animation-delay: 1.99s; animation-duration: 3.29s; }
+.d76 { animation-delay: 2.69s; animation-duration: 4.03s; }
+.d77 { animation-delay: 2.31s; animation-duration: 3.74s; }
+.d78 { animation-delay: 2.12s; animation-duration: 3.09s; }
+.d79 { animation-delay: 2.36s; animation-duration: 3.89s; }
+.d80 { animation-delay: 2.34s; animation-duration: 3.08s; }
+.d81 { animation-delay: 0s; animation-duration: 3.99s; }
+.d82 { animation-delay: 0s; animation-duration: 4.59s; }
+.d83 { animation-delay: 0.54s; animation-duration: 2.76s; }
+.d84 { animation-delay: 0.11s; animation-duration: 4.07s; }
+.d85 { animation-delay: 0.15s; animation-duration: 2.89s; }
+.d86 { animation-delay: 0.8s; animation-duration: 3.86s; }
+.d87 { animation-delay: 0.49s; animation-duration: 4.33s; }
+.d88 { animation-delay: 0.82s; animation-duration: 3.02s; }
+.d89 { animation-delay: 0.32s; animation-duration: 3.55s; }
+.d90 { animation-delay: 0.64s; animation-duration: 3.63s; }
+.d91 { animation-delay: 0.95s; animation-duration: 4.08s; }
+.d92 { animation-delay: 1.22s; animation-duration: 2.82s; }
+.d93 { animation-delay: 0.82s; animation-duration: 3.35s; }
+.d94 { animation-delay: 1.25s; animation-duration: 3.15s; }
+.d95 { animation-delay: 0.77s; animation-duration: 3.59s; }
+.d96 { animation-delay: 1.02s; animation-duration: 3.21s; }
+.d97 { animation-delay: 0.95s; animation-duration: 4.63s; }
+.d98 { animation-delay: 1.17s; animation-duration: 4.49s; }
+.d99 { animation-delay: 1.32s; animation-duration: 2.71s; }
+.d100 { animation-delay: 1.74s; animation-duration: 4.44s; }
+.d101 { animation-delay: 1.78s; animation-duration: 4.64s; }
+.d102 { animation-delay: 1.75s; animation-duration: 2.97s; }
+.d103 { animation-delay: 1.52s; animation-duration: 3.07s; }
+.d104 { animation-delay: 1.52s; animation-duration: 2.73s; }
+.d105 { animation-delay: 1.56s; animation-duration: 4.77s; }
+.d106 { animation-delay: 1.54s; animation-duration: 4.32s; }
+.d107 { animation-delay: 1.75s; animation-duration: 3.53s; }
+.d108 { animation-delay: 2.22s; animation-duration: 4.79s; }
+.d109 { animation-delay: 1.96s; animation-duration: 4.18s; }
+.d110 { animation-delay: 1.7s; animation-duration: 3.25s; }
+.d111 { animation-delay: 2.42s; animation-duration: 3.87s; }
+.d112 { animation-delay: 2.14s; animation-duration: 4.25s; }
+.d113 { animation-delay: 1.82s; animation-duration: 3.89s; }
+.d114 { animation-delay: 2.24s; animation-duration: 4.48s; }
+.d115 { animation-delay: 2.02s; animation-duration: 4.71s; }
+.d116 { animation-delay: 2.03s; animation-duration: 3.01s; }
+.d117 { animation-delay: 2.5s; animation-duration: 4.09s; }
+.d118 { animation-delay: 2.28s; animation-duration: 2.86s; }
+.d119 { animation-delay: 2.87s; animation-duration: 3.14s; }
+.d120 { animation-delay: 2.69s; animation-duration: 3.96s; }
+.d121 { animation-delay: 0.13s; animation-duration: 3.88s; }
+.d122 { animation-delay: 0.27s; animation-duration: 4.66s; }
+.d123 { animation-delay: 0.08s; animation-duration: 4.18s; }
+.d124 { animation-delay: 0.17s; animation-duration: 3.47s; }
+.d125 { animation-delay: 0.58s; animation-duration: 3.26s; }
+.d126 { animation-delay: 0.36s; animation-duration: 4.25s; }
+.d127 { animation-delay: 0.23s; animation-duration: 3.61s; }
+.d128 { animation-delay: 1.04s; animation-duration: 4.79s; }
+.d129 { animation-delay: 0.36s; animation-duration: 3.07s; }
+.d130 { animation-delay: 0.58s; animation-duration: 4.65s; }
+.d131 { animation-delay: 1.13s; animation-duration: 4.53s; }
+.d132 { animation-delay: 0.79s; animation-duration: 2.95s; }
+.d133 { animation-delay: 1.22s; animation-duration: 4.15s; }
+.d134 { animation-delay: 1.11s; animation-duration: 4.77s; }
+.d135 { animation-delay: 1.21s; animation-duration: 2.62s; }
+.d136 { animation-delay: 1.4s; animation-duration: 3.26s; }
+.d137 { animation-delay: 1.34s; animation-duration: 4.67s; }
+.d138 { animation-delay: 0.98s; animation-duration: 2.85s; }
+.d139 { animation-delay: 1.03s; animation-duration: 3.82s; }
+.d140 { animation-delay: 1.22s; animation-duration: 3.93s; }
+.d141 { animation-delay: 1.64s; animation-duration: 3.05s; }
+.d142 { animation-delay: 1.64s; animation-duration: 3.18s; }
+.d143 { animation-delay: 1.59s; animation-duration: 4.59s; }
+.d144 { animation-delay: 1.94s; animation-duration: 2.8s; }
+.d145 { animation-delay: 1.66s; animation-duration: 3.21s; }
+.d146 { animation-delay: 1.39s; animation-duration: 4.3s; }
+.d147 { animation-delay: 1.96s; animation-duration: 3.18s; }
+.d148 { animation-delay: 2.11s; animation-duration: 3.81s; }
+.d149 { animation-delay: 1.92s; animation-duration: 2.62s; }
+.d150 { animation-delay: 1.7s; animation-duration: 4.54s; }
+.d151 { animation-delay: 2.43s; animation-duration: 3.8s; }
+.d152 { animation-delay: 2.44s; animation-duration: 3.88s; }
+.d153 { animation-delay: 1.95s; animation-duration: 2.88s; }
+.d154 { animation-delay: 2.14s; animation-duration: 4.58s; }
+.d155 { animation-delay: 2.6s; animation-duration: 4.49s; }
+.d156 { animation-delay: 2.74s; animation-duration: 3.06s; }
+.d157 { animation-delay: 2.29s; animation-duration: 2.83s; }
+.d158 { animation-delay: 2.78s; animation-duration: 4.55s; }
+.d159 { animation-delay: 2.54s; animation-duration: 3.97s; }
+.d160 { animation-delay: 2.4s; animation-duration: 4.65s; }
+.d161 { animation-delay: 0.55s; animation-duration: 4.75s; }
+.d162 { animation-delay: 0.57s; animation-duration: 4.54s; }
+.d163 { animation-delay: 0.0s; animation-duration: 4.22s; }
+.d164 { animation-delay: 0.31s; animation-duration: 4.65s; }
+.d165 { animation-delay: 0.75s; animation-duration: 4.5s; }
+.d166 { animation-delay: 0.82s; animation-duration: 3.19s; }
+.d167 { animation-delay: 0.87s; animation-duration: 2.84s; }
+.d168 { animation-delay: 1.0s; animation-duration: 4.49s; }
+.d169 { animation-delay: 0.54s; animation-duration: 4.4s; }
+.d170 { animation-delay: 0.8s; animation-duration: 3.27s; }
+.d171 { animation-delay: 1.13s; animation-duration: 3.1s; }
+.d172 { animation-delay: 0.58s; animation-duration: 3.02s; }
+.d173 { animation-delay: 0.88s; animation-duration: 4.5s; }
+.d174 { animation-delay: 1.46s; animation-duration: 3.21s; }
+.d175 { animation-delay: 1.26s; animation-duration: 3.48s; }
+.d176 { animation-delay: 1.6s; animation-duration: 3.78s; }
+.d177 { animation-delay: 1.63s; animation-duration: 2.85s; }
+.d178 { animation-delay: 1.72s; animation-duration: 2.99s; }
+.d179 { animation-delay: 1.77s; animation-duration: 3.18s; }
+.d180 { animation-delay: 1.15s; animation-duration: 3.56s; }
+.d181 { animation-delay: 1.71s; animation-duration: 3.29s; }
+.d182 { animation-delay: 1.68s; animation-duration: 3.73s; }
+.d183 { animation-delay: 1.57s; animation-duration: 3.87s; }
+.d184 { animation-delay: 1.53s; animation-duration: 4.16s; }
+.d185 { animation-delay: 1.39s; animation-duration: 4.64s; }
+.d186 { animation-delay: 1.88s; animation-duration: 4.18s; }
+.d187 { animation-delay: 2.11s; animation-duration: 4.08s; }
+.d188 { animation-delay: 1.87s; animation-duration: 2.75s; }
+.d189 { animation-delay: 2.17s; animation-duration: 3.33s; }
+.d190 { animation-delay: 1.96s; animation-duration: 4.47s; }
+.d191 { animation-delay: 2.35s; animation-duration: 3.26s; }
+.d192 { animation-delay: 2.08s; animation-duration: 3.5s; }
+.d193 { animation-delay: 2.22s; animation-duration: 3.25s; }
+.d194 { animation-delay: 2.06s; animation-duration: 3.52s; }
+.d195 { animation-delay: 2.78s; animation-duration: 4.09s; }
+.d196 { animation-delay: 2.81s; animation-duration: 3.95s; }
+.d197 { animation-delay: 2.39s; animation-duration: 3.81s; }
+.d198 { animation-delay: 2.22s; animation-duration: 3.23s; }
+.d199 { animation-delay: 2.62s; animation-duration: 3.88s; }
+.d200 { animation-delay: 2.87s; animation-duration: 3.62s; }
+.d201 { animation-delay: 0.27s; animation-duration: 3.07s; }
+.d202 { animation-delay: 0.36s; animation-duration: 4.58s; }
+.d203 { animation-delay: 0.68s; animation-duration: 2.97s; }
+.d204 { animation-delay: 0.18s; animation-duration: 3.73s; }
+.d205 { animation-delay: 0.68s; animation-duration: 3.34s; }
+.d206 { animation-delay: 0.89s; animation-duration: 4.25s; }
+.d207 { animation-delay: 0.84s; animation-duration: 3.09s; }
+.d208 { animation-delay: 0.53s; animation-duration: 2.65s; }
+.d209 { animation-delay: 0.63s; animation-duration: 3.65s; }
+.d210 { animation-delay: 1.17s; animation-duration: 2.76s; }
+.d211 { animation-delay: 0.89s; animation-duration: 3.99s; }
+.d212 { animation-delay: 0.78s; animation-duration: 4.13s; }
+.d213 { animation-delay: 1.08s; animation-duration: 3.14s; }
+.d214 { animation-delay: 1.27s; animation-duration: 2.61s; }
+.d215 { animation-delay: 1.41s; animation-duration: 4.29s; }
+.d216 { animation-delay: 0.96s; animation-duration: 3.54s; }
+.d217 { animation-delay: 1.08s; animation-duration: 4.71s; }
+.d218 { animation-delay: 1.42s; animation-duration: 2.71s; }
+.d219 { animation-delay: 1.27s; animation-duration: 4.47s; }
+.d220 { animation-delay: 1.5s; animation-duration: 4.36s; }
+.d221 { animation-delay: 1.73s; animation-duration: 4.77s; }
+.d222 { animation-delay: 1.74s; animation-duration: 4.69s; }
+.d223 { animation-delay: 2.04s; animation-duration: 3.95s; }
+.d224 { animation-delay: 1.96s; animation-duration: 3.71s; }
+.d225 { animation-delay: 2.12s; animation-duration: 3.81s; }
+.d226 { animation-delay: 2.23s; animation-duration: 4.24s; }
+.d227 { animation-delay: 1.96s; animation-duration: 3.17s; }
+.d228 { animation-delay: 1.84s; animation-duration: 4.0s; }
+.d229 { animation-delay: 2.32s; animation-duration: 3.75s; }
+.d230 { animation-delay: 2.27s; animation-duration: 3.2s; }
+.d231 { animation-delay: 1.9s; animation-duration: 3.23s; }
+.d232 { animation-delay: 2.12s; animation-duration: 3.3s; }
+.d233 { animation-delay: 2.39s; animation-duration: 2.9s; }
+.d234 { animation-delay: 2.21s; animation-duration: 4.13s; }
+.d235 { animation-delay: 2.65s; animation-duration: 2.74s; }
+.d236 { animation-delay: 2.48s; animation-duration: 3.79s; }
+.d237 { animation-delay: 2.55s; animation-duration: 3.06s; }
+.d238 { animation-delay: 2.62s; animation-duration: 4.59s; }
+.d239 { animation-delay: 2.81s; animation-duration: 4.13s; }
+.d240 { animation-delay: 3.09s; animation-duration: 4.28s; }
+.d241 { animation-delay: 0.29s; animation-duration: 2.61s; }
+.d242 { animation-delay: 0.33s; animation-duration: 4.26s; }
+.d243 { animation-delay: 0.79s; animation-duration: 4.7s; }
+.d244 { animation-delay: 0.51s; animation-duration: 4.24s; }
+.d245 { animation-delay: 0.68s; animation-duration: 3.93s; }
+.d246 { animation-delay: 0.48s; animation-duration: 3.08s; }
+.d247 { animation-delay: 0.71s; animation-duration: 2.66s; }
+.d248 { animation-delay: 0.7s; animation-duration: 4.09s; }
+.d249 { animation-delay: 0.82s; animation-duration: 2.96s; }
+.d250 { animation-delay: 0.93s; animation-duration: 2.88s; }
+.d251 { animation-delay: 1.12s; animation-duration: 2.66s; }
+.d252 { animation-delay: 1.0s; animation-duration: 3.84s; }
+.d253 { animation-delay: 0.77s; animation-duration: 4.01s; }
+.d254 { animation-delay: 0.92s; animation-duration: 3.62s; }
+.d255 { animation-delay: 0.92s; animation-duration: 3.43s; }
+.d256 { animation-delay: 1.11s; animation-duration: 3.32s; }
+.d257 { animation-delay: 1.61s; animation-duration: 3.43s; }
+.d258 { animation-delay: 1.67s; animation-duration: 4.43s; }
+.d259 { animation-delay: 1.33s; animation-duration: 2.78s; }
+.d260 { animation-delay: 1.21s; animation-duration: 3.79s; }
+.d261 { animation-delay: 2.06s; animation-duration: 3.37s; }
+.d262 { animation-delay: 1.84s; animation-duration: 4.32s; }
+.d263 { animation-delay: 1.91s; animation-duration: 4.26s; }
+.d264 { animation-delay: 2.21s; animation-duration: 3.04s; }
+.d265 { animation-delay: 1.53s; animation-duration: 2.94s; }
+.d266 { animation-delay: 1.68s; animation-duration: 4.07s; }
+.d267 { animation-delay: 2.09s; animation-duration: 3.08s; }
+.d268 { animation-delay: 2.27s; animation-duration: 4.29s; }
+.d269 { animation-delay: 1.9s; animation-duration: 3.94s; }
+.d270 { animation-delay: 2.43s; animation-duration: 2.85s; }
+.d271 { animation-delay: 2.55s; animation-duration: 4.72s; }
+.d272 { animation-delay: 2.05s; animation-duration: 2.66s; }
+.d273 { animation-delay: 2.28s; animation-duration: 4.09s; }
+.d274 { animation-delay: 2.86s; animation-duration: 3.47s; }
+.d275 { animation-delay: 2.73s; animation-duration: 2.77s; }
+.d276 { animation-delay: 2.77s; animation-duration: 3.98s; }
+.d277 { animation-delay: 2.36s; animation-duration: 4.3s; }
+.d278 { animation-delay: 3.02s; animation-duration: 3.92s; }
+.d279 { animation-delay: 2.51s; animation-duration: 4.76s; }
+.d280 { animation-delay: 3.1s; animation-duration: 3.36s; }</style>
+<rect x="0" y="0" class="cell d1" />
+<rect x="14" y="0" class="cell d2" />
+<rect x="28" y="0" class="cell d3" />
+<rect x="42" y="0" class="cell d4" />
+<rect x="56" y="0" class="cell d5" />
+<rect x="70" y="0" class="cell d6" />
+<rect x="84" y="0" class="cell d7" />
+<rect x="98" y="0" class="cell d8" />
+<rect x="112" y="0" class="cell d9" />
+<rect x="126" y="0" class="cell d10" />
+<rect x="140" y="0" class="cell d11" />
+<rect x="154" y="0" class="cell d12" />
+<rect x="168" y="0" class="cell d13" />
+<rect x="182" y="0" class="cell d14" />
+<rect x="196" y="0" class="cell d15" />
+<rect x="210" y="0" class="cell d16" />
+<rect x="224" y="0" class="cell d17" />
+<rect x="238" y="0" class="cell d18" />
+<rect x="252" y="0" class="cell d19" />
+<rect x="266" y="0" class="cell d20" />
+<rect x="280" y="0" class="cell d21" />
+<rect x="294" y="0" class="cell d22" />
+<rect x="308" y="0" class="cell d23" />
+<rect x="322" y="0" class="cell d24" />
+<rect x="336" y="0" class="cell d25" />
+<rect x="350" y="0" class="cell d26" />
+<rect x="364" y="0" class="cell d27" />
+<rect x="378" y="0" class="cell d28" />
+<rect x="392" y="0" class="cell d29" />
+<rect x="406" y="0" class="cell d30" />
+<rect x="420" y="0" class="cell d31" />
+<rect x="434" y="0" class="cell d32" />
+<rect x="448" y="0" class="cell d33" />
+<rect x="462" y="0" class="cell d34" />
+<rect x="476" y="0" class="cell d35" />
+<rect x="490" y="0" class="cell d36" />
+<rect x="504" y="0" class="cell d37" />
+<rect x="518" y="0" class="cell d38" />
+<rect x="532" y="0" class="cell d39" />
+<rect x="546" y="0" class="cell d40" />
+<rect x="0" y="14" class="cell d41" />
+<rect x="14" y="14" class="cell d42" />
+<rect x="28" y="14" class="cell d43" />
+<rect x="42" y="14" class="cell d44" />
+<rect x="56" y="14" class="cell d45" />
+<rect x="70" y="14" class="cell d46" />
+<rect x="84" y="14" class="cell d47" />
+<rect x="98" y="14" class="cell d48" />
+<rect x="112" y="14" class="cell d49" />
+<rect x="126" y="14" class="cell d50" />
+<rect x="140" y="14" class="cell d51" />
+<rect x="154" y="14" class="cell d52" />
+<rect x="168" y="14" class="cell d53" />
+<rect x="182" y="14" class="cell d54" />
+<rect x="196" y="14" class="cell d55" />
+<rect x="210" y="14" class="cell d56" />
+<rect x="224" y="14" class="cell d57" />
+<rect x="238" y="14" class="cell d58" />
+<rect x="252" y="14" class="cell d59" />
+<rect x="266" y="14" class="cell d60" />
+<rect x="280" y="14" class="cell d61" />
+<rect x="294" y="14" class="cell d62" />
+<rect x="308" y="14" class="cell d63" />
+<rect x="322" y="14" class="cell d64" />
+<rect x="336" y="14" class="cell d65" />
+<rect x="350" y="14" class="cell d66" />
+<rect x="364" y="14" class="cell d67" />
+<rect x="378" y="14" class="cell d68" />
+<rect x="392" y="14" class="cell d69" />
+<rect x="406" y="14" class="cell d70" />
+<rect x="420" y="14" class="cell d71" />
+<rect x="434" y="14" class="cell d72" />
+<rect x="448" y="14" class="cell d73" />
+<rect x="462" y="14" class="cell d74" />
+<rect x="476" y="14" class="cell d75" />
+<rect x="490" y="14" class="cell d76" />
+<rect x="504" y="14" class="cell d77" />
+<rect x="518" y="14" class="cell d78" />
+<rect x="532" y="14" class="cell d79" />
+<rect x="546" y="14" class="cell d80" />
+<rect x="0" y="28" class="cell d81" />
+<rect x="14" y="28" class="cell d82" />
+<rect x="28" y="28" class="cell d83" />
+<rect x="42" y="28" class="cell d84" />
+<rect x="56" y="28" class="cell d85" />
+<rect x="70" y="28" class="cell d86" />
+<rect x="84" y="28" class="cell d87" />
+<rect x="98" y="28" class="cell d88" />
+<rect x="112" y="28" class="cell d89" />
+<rect x="126" y="28" class="cell d90" />
+<rect x="140" y="28" class="cell d91" />
+<rect x="154" y="28" class="cell d92" />
+<rect x="168" y="28" class="cell d93" />
+<rect x="182" y="28" class="cell d94" />
+<rect x="196" y="28" class="cell d95" />
+<rect x="210" y="28" class="cell d96" />
+<rect x="224" y="28" class="cell d97" />
+<rect x="238" y="28" class="cell d98" />
+<rect x="252" y="28" class="cell d99" />
+<rect x="266" y="28" class="cell d100" />
+<rect x="280" y="28" class="cell d101" />
+<rect x="294" y="28" class="cell d102" />
+<rect x="308" y="28" class="cell d103" />
+<rect x="322" y="28" class="cell d104" />
+<rect x="336" y="28" class="cell d105" />
+<rect x="350" y="28" class="cell d106" />
+<rect x="364" y="28" class="cell d107" />
+<rect x="378" y="28" class="cell d108" />
+<rect x="392" y="28" class="cell d109" />
+<rect x="406" y="28" class="cell d110" />
+<rect x="420" y="28" class="cell d111" />
+<rect x="434" y="28" class="cell d112" />
+<rect x="448" y="28" class="cell d113" />
+<rect x="462" y="28" class="cell d114" />
+<rect x="476" y="28" class="cell d115" />
+<rect x="490" y="28" class="cell d116" />
+<rect x="504" y="28" class="cell d117" />
+<rect x="518" y="28" class="cell d118" />
+<rect x="532" y="28" class="cell d119" />
+<rect x="546" y="28" class="cell d120" />
+<rect x="0" y="42" class="cell d121" />
+<rect x="14" y="42" class="cell d122" />
+<rect x="28" y="42" class="cell d123" />
+<rect x="42" y="42" class="cell d124" />
+<rect x="56" y="42" class="cell d125" />
+<rect x="70" y="42" class="cell d126" />
+<rect x="84" y="42" class="cell d127" />
+<rect x="98" y="42" class="cell d128" />
+<rect x="112" y="42" class="cell d129" />
+<rect x="126" y="42" class="cell d130" />
+<rect x="140" y="42" class="cell d131" />
+<rect x="154" y="42" class="cell d132" />
+<rect x="168" y="42" class="cell d133" />
+<rect x="182" y="42" class="cell d134" />
+<rect x="196" y="42" class="cell d135" />
+<rect x="210" y="42" class="cell d136" />
+<rect x="224" y="42" class="cell d137" />
+<rect x="238" y="42" class="cell d138" />
+<rect x="252" y="42" class="cell d139" />
+<rect x="266" y="42" class="cell d140" />
+<rect x="280" y="42" class="cell d141" />
+<rect x="294" y="42" class="cell d142" />
+<rect x="308" y="42" class="cell d143" />
+<rect x="322" y="42" class="cell d144" />
+<rect x="336" y="42" class="cell d145" />
+<rect x="350" y="42" class="cell d146" />
+<rect x="364" y="42" class="cell d147" />
+<rect x="378" y="42" class="cell d148" />
+<rect x="392" y="42" class="cell d149" />
+<rect x="406" y="42" class="cell d150" />
+<rect x="420" y="42" class="cell d151" />
+<rect x="434" y="42" class="cell d152" />
+<rect x="448" y="42" class="cell d153" />
+<rect x="462" y="42" class="cell d154" />
+<rect x="476" y="42" class="cell d155" />
+<rect x="490" y="42" class="cell d156" />
+<rect x="504" y="42" class="cell d157" />
+<rect x="518" y="42" class="cell d158" />
+<rect x="532" y="42" class="cell d159" />
+<rect x="546" y="42" class="cell d160" />
+<rect x="0" y="56" class="cell d161" />
+<rect x="14" y="56" class="cell d162" />
+<rect x="28" y="56" class="cell d163" />
+<rect x="42" y="56" class="cell d164" />
+<rect x="56" y="56" class="cell d165" />
+<rect x="70" y="56" class="cell d166" />
+<rect x="84" y="56" class="cell d167" />
+<rect x="98" y="56" class="cell d168" />
+<rect x="112" y="56" class="cell d169" />
+<rect x="126" y="56" class="cell d170" />
+<rect x="140" y="56" class="cell d171" />
+<rect x="154" y="56" class="cell d172" />
+<rect x="168" y="56" class="cell d173" />
+<rect x="182" y="56" class="cell d174" />
+<rect x="196" y="56" class="cell d175" />
+<rect x="210" y="56" class="cell d176" />
+<rect x="224" y="56" class="cell d177" />
+<rect x="238" y="56" class="cell d178" />
+<rect x="252" y="56" class="cell d179" />
+<rect x="266" y="56" class="cell d180" />
+<rect x="280" y="56" class="cell d181" />
+<rect x="294" y="56" class="cell d182" />
+<rect x="308" y="56" class="cell d183" />
+<rect x="322" y="56" class="cell d184" />
+<rect x="336" y="56" class="cell d185" />
+<rect x="350" y="56" class="cell d186" />
+<rect x="364" y="56" class="cell d187" />
+<rect x="378" y="56" class="cell d188" />
+<rect x="392" y="56" class="cell d189" />
+<rect x="406" y="56" class="cell d190" />
+<rect x="420" y="56" class="cell d191" />
+<rect x="434" y="56" class="cell d192" />
+<rect x="448" y="56" class="cell d193" />
+<rect x="462" y="56" class="cell d194" />
+<rect x="476" y="56" class="cell d195" />
+<rect x="490" y="56" class="cell d196" />
+<rect x="504" y="56" class="cell d197" />
+<rect x="518" y="56" class="cell d198" />
+<rect x="532" y="56" class="cell d199" />
+<rect x="546" y="56" class="cell d200" />
+<rect x="0" y="70" class="cell d201" />
+<rect x="14" y="70" class="cell d202" />
+<rect x="28" y="70" class="cell d203" />
+<rect x="42" y="70" class="cell d204" />
+<rect x="56" y="70" class="cell d205" />
+<rect x="70" y="70" class="cell d206" />
+<rect x="84" y="70" class="cell d207" />
+<rect x="98" y="70" class="cell d208" />
+<rect x="112" y="70" class="cell d209" />
+<rect x="126" y="70" class="cell d210" />
+<rect x="140" y="70" class="cell d211" />
+<rect x="154" y="70" class="cell d212" />
+<rect x="168" y="70" class="cell d213" />
+<rect x="182" y="70" class="cell d214" />
+<rect x="196" y="70" class="cell d215" />
+<rect x="210" y="70" class="cell d216" />
+<rect x="224" y="70" class="cell d217" />
+<rect x="238" y="70" class="cell d218" />
+<rect x="252" y="70" class="cell d219" />
+<rect x="266" y="70" class="cell d220" />
+<rect x="280" y="70" class="cell d221" />
+<rect x="294" y="70" class="cell d222" />
+<rect x="308" y="70" class="cell d223" />
+<rect x="322" y="70" class="cell d224" />
+<rect x="336" y="70" class="cell d225" />
+<rect x="350" y="70" class="cell d226" />
+<rect x="364" y="70" class="cell d227" />
+<rect x="378" y="70" class="cell d228" />
+<rect x="392" y="70" class="cell d229" />
+<rect x="406" y="70" class="cell d230" />
+<rect x="420" y="70" class="cell d231" />
+<rect x="434" y="70" class="cell d232" />
+<rect x="448" y="70" class="cell d233" />
+<rect x="462" y="70" class="cell d234" />
+<rect x="476" y="70" class="cell d235" />
+<rect x="490" y="70" class="cell d236" />
+<rect x="504" y="70" class="cell d237" />
+<rect x="518" y="70" class="cell d238" />
+<rect x="532" y="70" class="cell d239" />
+<rect x="546" y="70" class="cell d240" />
+<rect x="0" y="84" class="cell d241" />
+<rect x="14" y="84" class="cell d242" />
+<rect x="28" y="84" class="cell d243" />
+<rect x="42" y="84" class="cell d244" />
+<rect x="56" y="84" class="cell d245" />
+<rect x="70" y="84" class="cell d246" />
+<rect x="84" y="84" class="cell d247" />
+<rect x="98" y="84" class="cell d248" />
+<rect x="112" y="84" class="cell d249" />
+<rect x="126" y="84" class="cell d250" />
+<rect x="140" y="84" class="cell d251" />
+<rect x="154" y="84" class="cell d252" />
+<rect x="168" y="84" class="cell d253" />
+<rect x="182" y="84" class="cell d254" />
+<rect x="196" y="84" class="cell d255" />
+<rect x="210" y="84" class="cell d256" />
+<rect x="224" y="84" class="cell d257" />
+<rect x="238" y="84" class="cell d258" />
+<rect x="252" y="84" class="cell d259" />
+<rect x="266" y="84" class="cell d260" />
+<rect x="280" y="84" class="cell d261" />
+<rect x="294" y="84" class="cell d262" />
+<rect x="308" y="84" class="cell d263" />
+<rect x="322" y="84" class="cell d264" />
+<rect x="336" y="84" class="cell d265" />
+<rect x="350" y="84" class="cell d266" />
+<rect x="364" y="84" class="cell d267" />
+<rect x="378" y="84" class="cell d268" />
+<rect x="392" y="84" class="cell d269" />
+<rect x="406" y="84" class="cell d270" />
+<rect x="420" y="84" class="cell d271" />
+<rect x="434" y="84" class="cell d272" />
+<rect x="448" y="84" class="cell d273" />
+<rect x="462" y="84" class="cell d274" />
+<rect x="476" y="84" class="cell d275" />
+<rect x="490" y="84" class="cell d276" />
+<rect x="504" y="84" class="cell d277" />
+<rect x="518" y="84" class="cell d278" />
+<rect x="532" y="84" class="cell d279" />
+<rect x="546" y="84" class="cell d280" />
+<rect class="sheen-bar" x="0" y="0" width="83" height="94" fill="url(#sheen)" style="mix-blend-mode: screen;" />
 </svg>
