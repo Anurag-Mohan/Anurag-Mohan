@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="960px" height="500px" font-size="15px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+  -webkit-size-adjust: 109%;
+  size-adjust: 109%;
+}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.head {fill: #58a6ff; font-weight: bold;}
+.cc {fill: #616e7f;}
+.art {fill: #8b949e; font-size: 10px;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="960px" height="500px" fill="#0d1117" rx="15"/>
+<rect x="0.5" y="0.5" width="959px" height="499px" fill="none" stroke="#30363d" rx="15"/>
+
+<!-- ASCII portrait -->
+<text x="15" y="24" class="art">
+<tspan x="15" y="24">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⢆⢀⠠⢐⠀⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="41">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠚⠘⠌⠂⠀⠑⠰⢐⠀⢄⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="58">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠑⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="75">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⢠⣠⣴⣦⣶⣦⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="92">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢊⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⣖⢄⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="109">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡗⣼⣿⣿⣽⣿⣟⣿⢾⡷⣗⣯⢿⢝⢆⠡⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="126">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⡿⠟⠿⠿⠿⣿⣿⣯⣿⣽⣾⢹⡘⡐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="143">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣷⣔⣿⡷⠷⠧⠆⠄⢄⣽⣽⡻⠙⠝⠗⢕⠄⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="160">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡟⣾⣿⣿⣾⣳⣰⣠⣿⣿⠏⠀⠀⢠⣤⡤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="177">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢼⣮⣿⣿⣿⣯⣿⣿⣿⣿⡟⠀⠀⢀⢻⢢⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="194">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⢽⣿⣿⣿⡟⣇⣿⣿⣿⠂⢀⠀⡱⣗⣧⢗⢆⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="211">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⠗⠕⠻⠛⠙⠩⠀⠁⠀⢘⡿⣽⢱⠁⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="228">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢳⣿⣢⣄⡨⣦⣶⣲⡀⠀⠀⠀⠿⡗⠕⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="245">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⡿⡯⡿⡻⠉⢀⣤⣠⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="262">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡙⢽⣿⣿⣮⣀⢅⢆⢔⠸⠘⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="279">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣧⠀⠑⠙⠉⠛⠝⠫⠓⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="296">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣧⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="313">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⣿⣿⣿⡻⠐⡀⢀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="330">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠂⠀⠀⠀⣿⣿⡷⣿⢵⢕⣔⢼⢴⢕⢕⢐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="347">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⡀⠕⡀⠀⠀⠀⢰⣿⡷⣯⡳⡝⣼⣸⡽⣕⣕⢦⢃⠂⠀⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</tspan>
+<tspan x="15" y="364">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⡀⠀⠀⠂⡀⠀⠀⠀⠀⢺⣿⣿⣳⣟⣾⣷⣿⣽⣾⣾⡯⠇⠁⠀⠀⠀⠀⠀⠀⠀⠂⠀⠂⠀⠂⠀⠀⡀⠀⠀</tspan>
+<tspan x="15" y="381">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠁⡈⠠⠀⠀⢈⠀⡀⢀⠄⡀⠀⠈⣿⣿⣿⣿⣻⣽⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠁⠈⠀⠌⠂⠁⠀⠀⠀⠀</tspan>
+<tspan x="15" y="398">⠀⠀⠀⠀⠀⠀⠀⢈⠀⠀⠂⠁⡀⠄⡁⠀⢂⠐⡀⠂⡂⢐⠀⠀⢹⣿⣿⣾⣿⡿⠋⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠌⠀⠠⠡⠡⠀⠠⠐⠀⠀⠀</tspan>
+<tspan x="15" y="415">⠀⠀⠀⠀⠀⠀⠠⠐⠀⠀⢁⠐⠀⠄⠠⠀⢂⠐⡀⠡⠐⢐⠐⠀⠘⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠄⡐⠈⠀⢀⠅⠅⠀⠌⠌⠀⡐⡈⢀⠈⢀⠐</tspan>
+<tspan x="15" y="432">⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⠄⢀⠡⠐⢀⠂⡀⠂⠄⠨⠐⠠⠨⠐⠀⢻⠋⠀⠀⠀⠀⢀⠀⠄⡐⠈⠄⡁⠂⠀⠐⡐⡈⠀⠠⡑⠀⢐⠠⠀⠄⠠⠐⠀</tspan>
+<tspan x="15" y="449">⠀⠀⠀⠀⠀⠀⠀⠀⠡⠐⠈⢀⠀⡂⠐⠠⢀⠡⠈⠄⡁⢂⠈⠄⠅⠀⠀⠀⢀⠔⢈⠂⠨⢀⠂⡁⠅⡐⠀⠀⠅⡂⠀⢀⢑⠀⠀⡐⠀⠁⠀⠄⡁⠀</tspan>
+<tspan x="15" y="466">⠀⠀⠀⠀⠀⠀⠀⠀⠈⠄⠂⠠⠀⡐⠈⠄⠂⠐⠈⠄⠂⠄⠂⢈⠂⠀⠀⠀⡂⠌⠠⢈⠐⡀⠂⠄⠡⡀⠀⠌⡐⠀⡀⢐⠁⠀⢀⠀⠂⡈⠄⠐⠀⠀</tspan>
+<tspan x="15" y="483">⠀⠀⠀⠀⠀⠀⠠⠀⠀⠂⢈⠀⡐⠀⠌⠠⢈⠈⠄⡁⠂⡁⠐⠐⠀⠀⢀⠨⠐⡈⠌⢀⢐⠠⠁⢈⠐⡀⠨⠐⠀⠠⠠⠐⠀⠀⠀⠀⠀⠄⠀⠁⠀⡈</tspan>
+</text>
+
+<text x="380" y="40" fill="#c9d1d9">
+<tspan x="380" y="40" class="head">anurag@laudex</tspan><tspan class="cc"> -——————————————————————————————————-</tspan>
+<tspan x="380" y="65" class="cc">. </tspan><tspan class="key">Role</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">Passionate Developer</tspan>
+<tspan x="380" y="85" class="cc">. </tspan><tspan class="key">Status</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Computer Science Student</tspan>
+<tspan x="380" y="105" class="cc">. </tspan><tspan class="key">Building</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Laudex (laudex.in)</tspan>
+<tspan x="380" y="125" class="cc">. </tspan><tspan class="key">Learning</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Rust (Systems Programming)</tspan>
+<tspan x="380" y="145" class="cc">. </tspan><tspan class="key">Focus</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">Backend &amp; developer tooling</tspan>
+<tspan x="380" y="165" class="cc">. </tspan><tspan class="key">Editor</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">VS Code</tspan>
+<tspan x="380" y="185" class="cc">. </tspan><tspan class="key">Fun Fact</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">24hr coding streak, 1 cup of coffee ☕</tspan>
+<tspan x="380" y="205" class="cc">. </tspan><tspan class="key">Pronouns</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">He/Him</tspan>
+
+<tspan x="380" y="240" class="head">Languages &amp; Tools</tspan><tspan class="cc"> -————————————————————-</tspan>
+<tspan x="380" y="265" class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">Python, JavaScript, Rust, Java</tspan>
+<tspan x="380" y="285" class="cc">. </tspan><tspan class="key">Languages.Markup</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Dart</tspan>
+<tspan x="380" y="305" class="cc">. </tspan><tspan class="key">Frameworks</tspan>:<tspan class="cc"> ............. </tspan><tspan class="value">Flutter, React, Node.js</tspan>
+<tspan x="380" y="325" class="cc">. </tspan><tspan class="key">Tools</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">Git, GitHub, VS Code</tspan>
+<tspan x="380" y="345" class="cc">. </tspan><tspan class="key">Currently Exploring</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Systems programming, open source</tspan>
+
+<tspan x="380" y="380" class="head">Contact</tspan><tspan class="cc"> -———————————————————————————————-</tspan>
+<tspan x="380" y="405" class="cc">. </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">anuragmohan79@gmail.com</tspan>
+<tspan x="380" y="425" class="cc">. </tspan><tspan class="key">Medium</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">@anuragmohanofficial</tspan>
+<tspan x="380" y="445" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">anuragmohanofficial</tspan>
+<tspan x="380" y="465" class="cc">. </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Anurag-Mohan</tspan>
+</text>
+</svg>
