@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="flickering-grid.svg" alt="Flickering Contribution Grid" />
+  <img src="grid-flickering.svg" alt="Flickering Contribution Grid" />
 </div>
 
 <br/>
