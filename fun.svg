@@ -60,10 +60,7 @@
 ]]>
 </style>
 
-<text x="490" y="34" text-anchor="middle" class="bigTitleR">Tech stack marathon</text>
-<line x1="330" y1="46" x2="650" y2="46" stroke="#262c37" stroke-width="2"/>
-<line class="underlineR" x1="330" y1="46" x2="650" y2="46" stroke="#58a6ff" stroke-width="2"/>
-<text x="490" y="63" text-anchor="middle" class="bigSubR">SPRINTING PAST EVERY LANGUAGE AND FRAMEWORK ALONG THE WAY</text>
+
 
 <rect x="0" y="236" width="980" height="46" fill="url(#roadGradR)"/>
 <rect x="0" y="233" width="980" height="4" fill="url(#curbGradR)"/>
