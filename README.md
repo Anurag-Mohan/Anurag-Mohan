@@ -27,7 +27,7 @@
   
 
 <div align="center">
-  <img src="fun.svg" alt="Fun" width="980"/>
+  <img src="fun-run.svg" alt="Fun" width="980"/>
 </div>
 <br/>
 
